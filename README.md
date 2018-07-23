@@ -1,4 +1,50 @@
 # Impetus: Community-Module
 
-Created frontend and API for the community microservice of a crowdfunding project page. The community microservice responsively displays data about the backers of a project, dynamically rendering the top cities and countries with the most backers, 
+Created frontend and API for the community microservice of a crowdfunding project page. The community microservice responsively displays data about the backers of a project, dynamically rendering the top cities and countries with the most backers, the amount of new and returning backers, and the avatar, name, and amount of projects of each backer of the project.
+
+## Related Projects
+
+* [Campaign Microservice](https://github.com/initial-impetus/campaign-service)
+* [Product Summary Microservice](https://github.com/initial-impetus/product-summary)
+* [Navbar Microservice](https://github.com/initial-impetus/navbar-module)
+* [Updates Microservice](https://github.com/initial-impetus/updates-module)
+* [Comments Microservice](https://github.com/initial-impetus/comments-module)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+
+### Prerequisites
+
+All dependencies are listed in the package.json
+
+### Installing
+
+Clone the repo to your local machine. Navigate to the directory and install dependencies with npm or with yarn:
+
+`npm install || yarn install`
+
+To run locally:
+
+`npm start`
+
+and navigate to localhost:3006 on your browser. In order to render different projects navigate to localhost:3006/?# where # is a number between 0 and 99.
+
+### Running the tests
+
+Run test suite with `npm test`
+
+## Built With
+
+* [React](https://www.reactjs.org) - Front-End Framework used
+* [Express](https://expressjs.com) - Web framework for Node.js
+* [MongoDB](https://www.mongodb.com) - noSQL database used for storing users and user games
+* [Mongoose](http://www.mongoosejs.com) - MongoDB ORM for node.js
+* [Sass](https://sass-lang.com/) - CSS extension language
+* [Docker](https://www.docker.com/) - Container Platform
+
+## Authors
+
+* **Sam Getlan** - *Initial Work* - [SamGetlan](https://github.com/SamGetlan)
+
 

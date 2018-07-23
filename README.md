@@ -4,9 +4,9 @@ Created frontend and API for the community microservice of a crowdfunding projec
 
 ## Related Projects
 
+* [Navbar Microservice](https://github.com/initial-impetus/navbar-module)
 * [Campaign Microservice](https://github.com/initial-impetus/campaign-service)
 * [Product Summary Microservice](https://github.com/initial-impetus/product-summary)
-* [Navbar Microservice](https://github.com/initial-impetus/navbar-module)
 * [Updates Microservice](https://github.com/initial-impetus/updates-module)
 * [Comments Microservice](https://github.com/initial-impetus/comments-module)
 
